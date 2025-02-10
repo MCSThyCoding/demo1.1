@@ -238,7 +238,7 @@ nav ul li a:hover {
 }
 .our-services {
   width: 100%;
-  height: 281px;
+  height: 230px;
   background-color: #122133;
   position: relative;
   top: 0px;
@@ -282,3 +282,117 @@ nav ul li a:hover {
 }
 
 /* list-box style */
+
+.body-li-box-contant {
+  background-color: #0a1521;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+ul.li-box {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+ul.li-box li a img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 4px 5px 4px white;
+}
+ul.li-box li a {
+  text-align: center;
+  font-size: 12px;
+  color: #a9cbf1;
+  text-decoration: none;
+}
+ul.li-box li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+ul.li-box li.left {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 500px;
+  padding: 20px;
+}
+ul.li-box li.right {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 500px;
+  padding: 20px;
+}
+
+/* local-partners */
+/* all h3 tag still in partnership */
+.local-partners-ctn {
+  background-color: #0a1521;
+}
+.main-local-part {
+  width: 1160px;
+  margin: 0px 140px;
+  background-color: #1b2232;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.main-local-part a {
+  text-decoration: none;
+}
+.main-local-part a h3:hover {
+  text-decoration: underline;
+  color: white;
+}
+h3 {
+  font-size: 16px;
+  color: #a9cbf1;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.main-local-part img{
+  width: 75px;
+  height: 49px;
+  border-radius: 3px;
+  margin: 3px;
+
+}
+
+/* internation-partners */
+/* all h3 tag still in partnership */
+.inter-partners-ctn {
+  background-color: #0a1521;
+  padding-top: 50px;
+}
+.main-inter-part {
+  width: 1160px;
+  margin: 0px 140px;
+  background-color: #1b2232;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.main-inter-part a {
+  text-decoration: none;
+}
+.main-inter-part a h3:hover {
+  text-decoration: underline;
+  color: white;
+}
+.main-inter-part img{
+  width: 75px;
+  height: 49px;
+  border-radius: 3px;
+  margin: 3px;
+
+}
+
