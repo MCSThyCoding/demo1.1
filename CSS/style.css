@@ -359,12 +359,11 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.main-local-part img{
+.main-local-part img {
   width: 75px;
   height: 49px;
   border-radius: 3px;
   margin: 3px;
-
 }
 
 /* internation-partners */
@@ -388,11 +387,57 @@ h3 {
   text-decoration: underline;
   color: white;
 }
-.main-inter-part img{
+.main-inter-part img {
   width: 75px;
   height: 49px;
   border-radius: 3px;
   margin: 3px;
-
 }
 
+/* subsidairy contents */
+
+.subsidiary-ctn {
+  background-color: #0a1521;
+  padding-top: 50px;
+}
+.subsidiary-ctn table {
+  background-color: grey;
+}
+.subsidiary-ctn table tbody {
+  text-align: center;
+  font-size: 12px;
+}
+.subsidiary-ctn table tbody tr {
+  display: flex;
+}
+.subsidiary-ctn table tbody td {
+  border: 1px solid #0a1521;
+  padding: 15px;
+  width: 25%;
+}
+.subsidiary-ctn center{
+  position: relative;
+  top: 0px;
+}
+.subsidiary-ctn center img {
+  width: 200px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.subsidiary-ctn td p {
+  color: white;
+  font-family: FiraSans, Verdana, sans-serif;
+  line-height: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 0px;
+  text-align: start;
+}
+.subsidiary-ctn td p a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.subsidiary-ctn td p a:hover {
+  text-decoration: underline;
+}
