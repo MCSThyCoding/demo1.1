@@ -15,7 +15,10 @@ header {
   height: 96px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 1px -9px 28px 30px black;
+  box-shadow: 1px -9px 20px 30px black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 header a img {
   width: 200px;
@@ -101,6 +104,9 @@ nav {
   position: relative;
   top: 5px;
   justify-content: space-between;
+  position: sticky;
+  top: 101px;
+  z-index: 1000;
 }
 nav ul {
   display: flex;
