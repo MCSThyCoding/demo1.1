@@ -415,7 +415,7 @@ h3 {
   padding: 15px;
   width: 25%;
 }
-.subsidiary-ctn center{
+.subsidiary-ctn center {
   position: relative;
   top: 0px;
 }
@@ -440,4 +440,51 @@ h3 {
 }
 .subsidiary-ctn td p a:hover {
   text-decoration: underline;
+}
+
+/* footer1 */
+.foot {
+  margin: 0;
+  padding: 0;
+  background-color: #122133;
+  text-align: center;
+  color: white;
+  font-family: FiraSans, Verdana, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0px;
+}
+.footer1 {
+  margin: 0px 320px;
+  padding: 45px 15px 15px;
+}
+.footer1 a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+.footer1 a:hover {
+  text-decoration: underline;
+}
+.foot div span{
+  padding: 5px 15px;
+}
+.foot div a img{
+  width: 140px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.footer2{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.footer2 div a img{
+  width: 40px;
+  border-radius: 50px;
+  border: 2px solid rgb(70, 70, 70);
+}
+.footer2 div a img:hover{
+  border: 2px solid white;
 }
