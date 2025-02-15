@@ -346,7 +346,8 @@ ul.li-box li.right {
 }
 .main-local-part {
   width: 1160px;
-  margin: 0px 120px;
+  margin: 0px auto;
+
   display: block;
   background-color: #1b2232;
   border-radius: 5px;
@@ -381,7 +382,8 @@ h3 {
 }
 .main-inter-part {
   width: 1160px;
-  margin: 0px 120px;
+  margin: 0px auto;
+
   display: block;
   background-color: #1b2232;
   border-radius: 5px;
@@ -474,26 +476,26 @@ h3 {
 .footer1 a:hover {
   text-decoration: underline;
 }
-.foot div span{
+.foot div span {
   padding: 5px 15px;
 }
-.foot div a img{
+.foot div a img {
   width: 140px;
   border-radius: 5px;
   margin: 0 5px;
 }
-.footer2{
+.footer2 {
   color: white;
   text-align: center;
   text-transform: uppercase;
   font-size: 10px;
   padding-bottom: 30px;
 }
-.footer2 div a img{
+.footer2 div a img {
   width: 40px;
   border-radius: 50px;
   border: 2px solid rgb(70, 70, 70);
 }
-.footer2 div a img:hover{
+.footer2 div a img:hover {
   border: 2px solid white;
 }
