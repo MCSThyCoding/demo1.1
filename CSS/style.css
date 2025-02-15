@@ -346,7 +346,8 @@ ul.li-box li.right {
 }
 .main-local-part {
   width: 1160px;
-  margin: 0px 140px;
+  margin: 0px 120px;
+  display: block;
   background-color: #1b2232;
   border-radius: 5px;
   padding: 20px;
@@ -380,7 +381,8 @@ h3 {
 }
 .main-inter-part {
   width: 1160px;
-  margin: 0px 140px;
+  margin: 0px 120px;
+  display: block;
   background-color: #1b2232;
   border-radius: 5px;
   padding: 20px;
