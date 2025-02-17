@@ -312,7 +312,11 @@ ul.li-box li a img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 20px;
-  box-shadow: 4px 5px 4px white;
+  box-shadow: 4px 5px 4px rgb(95, 91, 91);
+}
+ul.li-box li a img:hover{
+  translate: -5px -5px;
+  box-shadow: 7px 8px 4px rgb(95, 91, 91);
 }
 ul.li-box li a {
   text-align: center;
